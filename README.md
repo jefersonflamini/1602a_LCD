@@ -11,7 +11,7 @@ Create a new instance of `LCD` by using:
 LCD LCD = new LCD(LCD_RS, LCD_E, LCD_DATA4, LCD_DATA5, LCD_DATA6, LCD_DATA7);
 ```
 
-where as you need to specify the GPIO pin ids for the parameters `LCD_RS`, `LCD_E`, `LCD_DATA4`, `LCD_DATA5`,`LCD_DATA6`,`LCD_DATA7`
+where you need to specify the GPIO pin ids for the parameters `LCD_RS`, `LCD_E`, `LCD_DATA4`, `LCD_DATA5`,`LCD_DATA6`,`LCD_DATA7`
 according to WiringPi.
 
 Then you need to initialize it by
