@@ -4,6 +4,8 @@ Driver for the 1602a LCD display connected to the Raspberry Pi written in C#.
 # Installation
 Put the file "1602a_LCD.cs" into your project and include the namepsace `#using 1602a_LCD` into your main Program.cs
 
+This code uses Unosquares "Unosquare.Raspberry.IO" and "Unosquare.WiringPi", which essentially enables to use WiringPi, which is written for C++, with C#. Both packages can be obtained via the NuGet-Package-Manger in Visual Studio. 
+
 # Prepare code
 Create a new instance of `LCD` by using:
 
